@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banani Life - Health & Wellness</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Banani Life</h2>
+    <nav>
+      <a href="dashboard.html" class="active">Dashboard</a>
+      <a href="accessories.html">Accessories</a>
+      <a href="insights.html">Insights</a>
+      <a href="settings.html">Settings</a>
+    </nav>
+    <div class="profile-section">
+      <p>
+        <strong>Alex Morgan</strong>
+        <small>Premium User</small>
+      </p>
+    </div>
+  </div>
+  
+  <div class="content">
+    <h1>Welcome Back, Alex</h1>
+    
+    <div class="flex">
+      <div class="card">
+        <h3>Today's Steps</h3>
+        <p>8,200 steps</p>
+        <div class="stat-progress">
+          <div class="progress-bar" style="width: 82%;"></div>
+        </div>
+        <p class="stat-subtitle">82% of daily goal</p>
+        <button class="button">View Details</button>
+      </div>
+      
+      <div class="card">
+        <h3>Heart Rate</h3>
+        <p>72 bpm</p>
+        <div class="stat-circle">
+          <svg viewBox="0 0 36 36">
+            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+            <path class="circle-fill" stroke-dasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+          </svg>
+        </div>
+        <p class="stat-subtitle">Normal resting rate</p>
+        <button class="button">View Details</button>
+      </div>
+      
+      <div class="card">
+        <h3>Last Night Sleep</h3>
+        <p>7h 15m</p>
+        <div class="sleep-phases">
+          <div class="phase" style="width: 25%; background-color: #c4b5fd;">Deep</div>
+          <div class="phase" style="width: 45%; background-color: #a5b4fc;">Light</div>
+          <div class="phase" style="width: 15%; background-color: #818cf8;">REM</div>
+          <div class="phase" style="width: 15%; background-color: #6366f1;">Awake</div>
+        </div>
+        <p class="stat-subtitle">90% sleep quality</p>
+        <button class="button">View Details</button>
+      </div>
+    </div>
+    
+    <h2>Weekly Activity</h2>
+    <div class="chart">
+      <div class="bar"><div class="bar-fill height-28"></div><p>Mon</p></div>
+      <div class="bar"><div class="bar-fill height-24"></div><p>Tue</p></div>
+      <div class="bar"><div class="bar-fill height-26"></div><p>Wed</p></div>
+      <div class="bar"><div class="bar-fill height-30"></div><p>Thu</p></div>
+      <div class="bar"><div class="bar-fill height-26"></div><p>Fri</p></div>
+      <div class="bar"><div class="bar-fill height-32"></div><p>Sat</p></div>
+      <div class="bar"><div class="bar-fill height-30"></div><p>Sun</p></div>
+    </div>
+    
+    <h2>Quick Actions</h2>
+    <div class="flex">
+      <div class="card">
+        <h3>Set Alarm</h3>
+        <p>Wake up refreshed with smart alarm that syncs with your sleep cycle.</p>
+        <button class="button">Set Alarm</button>
+      </div>
+      
+      <div class="card">
+        <h3>Change Theme</h3>
+        <p>Customize your band interface with new themes and watch faces.</p>
+        <button class="button">Customize</button>
+      </div>
+      
+      <div class="card">
+        <h3>Workout Plan</h3>
+        <p>Get personalized workout recommendations based on your activity.</p>
+        <button class="button">View Plan</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
